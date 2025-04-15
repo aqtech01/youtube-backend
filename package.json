@@ -1,0 +1,33 @@
+{
+  "name": "youtube-backend",
+  "version": "1.0.0",
+  "description": "a backend by AQTECH",
+  "keywords": [
+    "JavaScript",
+    "Backend",
+    "AQTECH"
+  ],
+  "homepage": "https://github.com/aqtech01/youtube-backend#readme",
+  "bugs": {
+    "url": "https://github.com/aqtech01/youtube-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aqtech01/youtube-backend.git"
+  },
+  "license": "ISC",
+  "author": "AQTECH",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
